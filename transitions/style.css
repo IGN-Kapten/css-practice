@@ -1,0 +1,22 @@
+html {
+  background-color: black;
+}
+
+button {
+  color: limegreen;
+  display: block;
+  margin: 50% auto;
+  padding: 20px;
+  font-size: 20px;
+  border: double limegreen 5px;
+  border-radius: 3px;
+  background: transparent;
+  transition-duration: 0.25s;
+}
+
+button:active{
+  background: limegreen;
+  color: black;
+  box-shadow: 2px 5px 10px 3px green, -2px -1px 10px yellow;
+  border-radius: 20px;
+}

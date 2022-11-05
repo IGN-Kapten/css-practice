@@ -1,0 +1,52 @@
+html,body {
+  margin: 0;
+  background-color: black;
+}
+
+.div{
+  margin: 40% 0 0 25%;
+}
+
+.img-div{
+  position: absolute;
+}
+
+img {
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  border-radius: 20px;
+  transition-duration: 0.5s;
+}
+
+.img-1 {
+  background-color: #66FFFF;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  box-shadow: 5px 5px 30px 1px pink;
+  object-fit: cover;
+}
+
+.img-2 {
+  background-color: #FFFF66;
+  left: 75px;
+  top: 35px;
+  z-index: 2;
+  box-shadow: 5px 5px 30px 1px lightgreen;
+  object-fit: cover;
+}
+
+.img-3 {
+  background-color: #66FF66;
+  left: 25px;
+  top: 100px;
+  z-index: 0;
+  box-shadow: 5px 5px 100px 1px orange;
+  object-fit: cover;
+}
+
+.active {
+  height: 175px;
+  width: 175px;
+}
